@@ -1,9 +1,9 @@
-[![Konten Discord](https://img.shields.io/discord/821885171984891914?color=%237289DA&label=Kontent%20Discord&logo=discord)](https://discord.gg/SKCxwPtevJ) [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-kontent)
+[![Kontent.ai Discord](https://img.shields.io/discord/821885171984891914?color=%237289DA&label=Kontent%20Discord&logo=discord)](https://discord.gg/SKCxwPtevJ) [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kontent-ai)
 
 
-# Kontent Rails Sample Application
+# Kontent.ai Rails Sample Application
 
-This basic Rails application demonstrates how to create a Rails application using the [Kontent Ruby SDK](https://github.com/Kentico/kontent-delivery-sdk-ruby) and a [sample project](https://docs.kontent.ai/tutorials/manage-kontent/projects/manage-projects#a-create-a-sample-project).
+This basic Rails application demonstrates how to create a Rails application using the [Kontent.ai Ruby SDK](https://github.com/kontent-ai/delivery-sdk-ruby) and a [sample project](https://docs.kontent.ai/tutorials/manage-kontent/projects/manage-projects#a-create-a-sample-project).
 
 See [Build your first Ruby on Rails app](https://docs.kontent.ai/tutorials/develop-apps/get-started/build-your-first-app?tech=ruby) for a detailed walkthrough of how the sample application was developed.
 
@@ -19,6 +19,6 @@ See [Build your first Ruby on Rails app](https://docs.kontent.ai/tutorials/devel
 
 ## Features
 
-- Loads articles from Kontent asynchronously via [render_async](https://github.com/renderedtext/render_async)
-- Rich text component rendering via [`InlineContentItemResolver`](https://github.com/Kentico/kontent-delivery-sdk-ruby#resolving-inline-content)
-- Content item link resolution via [`ContentLinkResolver`](https://github.com/Kentico/kontent-delivery-sdk-ruby#resolving-links)
+- Loads articles from Kontent.ai asynchronously via [render_async](https://github.com/renderedtext/render_async)
+- Rich text component rendering via [`InlineContentItemResolver`](https://github.com/kontent-ai/delivery-sdk-ruby#resolving-inline-content)
+- Content item link resolution via [`ContentLinkResolver`](https://github.com/kontent-ai/delivery-sdk-ruby#resolving-links)

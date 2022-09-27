@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.3'
-gem 'kontent-delivery-sdk-ruby'
+ruby '3.1.2'
+gem 'kontent-ai-delivery'
 gem 'render_async'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
