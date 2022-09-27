@@ -1,4 +1,4 @@
-require 'kontent-delivery-sdk-ruby'
+require 'kontent-ai-delivery'
 class ApplicationController < ActionController::Base
   PROJECT_ID = '198cdfc4-9e33-000f-b700-e24a143b179a'.freeze
   item_resolver = Kontent::Ai::Delivery::Resolvers::InlineContentItemResolver.new(lambda do |item|
