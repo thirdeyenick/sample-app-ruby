@@ -1,6 +1,6 @@
 require 'kontent-ai-delivery'
 class ApplicationController < ActionController::Base
-  PROJECT_ID = '198cdfc4-9e33-000f-b700-e24a143b179a'.freeze
+  PROJECT_ID = '975bf280-fd91-488c-994c-2f04416e5ee3'.freeze
   item_resolver = Kontent::Ai::Delivery::Resolvers::InlineContentItemResolver.new(lambda do |item|
     if (item.system.type.eql? 'hosted_video') && (item.elements.video_host.value[0].codename.eql? 'youtube')
       return "<iframe class='hosted-video__wrapper'
