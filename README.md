@@ -22,3 +22,4 @@ See [Build your first Ruby on Rails app](https://docs.kontent.ai/tutorials/devel
 - Loads articles from Kontent.ai asynchronously via [render_async](https://github.com/renderedtext/render_async)
 - Rich text component rendering via [`InlineContentItemResolver`](https://github.com/kontent-ai/delivery-sdk-ruby#resolving-inline-content)
 - Content item link resolution via [`ContentLinkResolver`](https://github.com/kontent-ai/delivery-sdk-ruby#resolving-links)
+
