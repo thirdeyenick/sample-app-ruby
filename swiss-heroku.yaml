@@ -1,3 +1,4 @@
 environmentVars:
   test: ok
   app: test
+  push: test
